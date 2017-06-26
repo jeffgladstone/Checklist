@@ -1,0 +1,20 @@
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+	<html lang = 'en'>
+	<head>
+	  <title>{% block title %} {% endblock %}</title>
+	  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
+	  {% load static %}
+	  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+	</head>
+	<body>
+	<div id="wrapper">
+	    <h1>Checklist</h1>
+	    {% block content %}{% endblock %}
+	<hr>
+	    {% block footer %}<p>Checklist (2017) - Version 1.0</p>{% endblock %}
+	</div>
+	</body>
+
+	</html>

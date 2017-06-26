@@ -1,0 +1,2 @@
+-Make bullet points checkmark-images
+-easy redirecting via urls

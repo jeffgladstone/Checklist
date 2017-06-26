@@ -1,0 +1,122 @@
+
+
+body {
+		background-color: #FFFFE3;
+}
+
+p, li {
+	margin:0;
+	font-size: 19px;
+	color:#393e66;
+	padding:0;
+}
+
+table {
+		text-align: center;
+		width: 100%;
+}
+
+td {
+		color: white;
+		font-size: 20px;
+		background-color: grey;
+		border: 4px solid black;
+		border-radius: 5px;
+		padding: 2px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 750px;
+	border-left:4px solid brown;
+	border-right:4px solid brown;
+}
+
+#header {
+	margin:0 3px;
+}
+
+#spacer {
+	height:18.5px;
+}
+
+#main-content {
+	margin:0 30px;
+}
+
+#main-image {
+	text-align:center;
+}
+
+#left-column {
+	width:300px;
+	padding:0 30px 30px;
+	float:left;
+}
+
+#right-column {
+	width:300px;
+	float:right;
+}
+
+#footer {
+	background:lightgrey;
+	border-top:10px solid brown;
+	border-bottom: 10px solid brown;
+	padding:15px 55px;
+	clear:both;
+}
+
+a:visited, a:link {
+	color:#a43b55;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#a43b55;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+		color: darkgrey;
+		font-family: arial;
+		font-size: 200%;
+		text-align: center;
+		border: 13px solid lightgrey;
+		background-color: white;
+		border-radius: 12px;
+		border-top-right-radius: 60px;
+		border-top-left-radius: 60px;
+		padding: 3px;
+	}
+
+h2 {
+	color: #393e66;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 19px Georgia, serif;
+	border-bottom:1px solid darkgrey;
+}
+
+h3 {
+	color:black;
+	margin:10px 0;
+	padding-bottom:10px;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:10;
+	margin:0 0 1 17px;
+	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:linen;
+	border:11px solid brown;
+	padding:15px;
+	border-radius: 13px;
+}
