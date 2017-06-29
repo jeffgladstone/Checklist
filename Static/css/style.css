@@ -25,11 +25,12 @@ td {
 		padding: 2px;
 }
 
+
 #wrapper {
 	margin: 0 auto;
 	width: 750px;
-	border-left:4px solid brown;
-	border-right:4px solid brown;
+	border-left:4px solid grey;
+	border-right:4px solid grey;
 }
 
 #header {
@@ -112,6 +113,10 @@ ul {
 	padding:10;
 	margin:0 0 1 17px;
 	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+form {
+	"display: inline-block;
 }
 
 .box {

@@ -7,7 +7,9 @@
 {% for task in tasks %}
 {% if not task.is_done %}
 <ul>
-  <li>{{ task.description }} - {{task.date_created.date }} ({{ task.is_done }})</li>
+  <li>{{ task.description | capfirst }} - {{task.date_created.date }}</li>
+    <form action="/" method="get">
+    <input type="submit" name="task{{ task.id }}" value="Complete"/></form>
 </ul>
 {% endif %}
 {% endfor %}
@@ -16,7 +18,11 @@
 {% for task in tasks %}
 {% if task.is_done %}
 <ul>
-  <li>{{ task.description }} - {{task.date_created.date }} ({{ task.is_done }})</li>
+  <li>{{ task.description | capfirst }} - {{task.date_created.date }}</li>
+  <form action="/" method="get" style="display: inline-block;">
+    <input type="submit" name="task{{ task.id }}" value="Incomplete"/></form>
+  <form action="/" method="get" style="display: inline-block;">
+    <input type="submit" name="task{{ task.id }}" value="Delete"/></form>
 </ul>
 {% endif %}
 {% endfor %}
